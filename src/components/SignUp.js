@@ -63,8 +63,8 @@ const SignUp = ()=>{
 
 
     return(
-        <div className="flex justify-center bg-white min-h-screen items-center mb-10">
-           <form onSubmit={SubmitHandeler} className="border-[1px] border-solid border-silver w-fit p-12 m-12 rounded-[10px] h-fit bg-white sm:p-5 sm:my-12 sm:mx-5 sm:w-[90%] ">
+        <div className="flex justify-center bg-white min-h-screen items-center mb-10 xl:mt-10 2xl:mt-16 ">
+           <form onSubmit={SubmitHandeler} className="border-[1px] border-solid border-silver w-fit p-12 m-12 rounded-[10px] h-fit bg-white sm:p-5 sm:my-12 sm:mx-5 sm:w-[70%] ">
             <h2 className="text-left mb-10 text-3xl text-blue">SignUp</h2>
             <div className="flex flex-col mb-2.5 h-[75px]">
                 <label className="text-left mb-1 text-[#555555] text-base">Name</label>

@@ -33,7 +33,7 @@ const Search=()=> {
                   placeholder="Search.." 
                   value={search} 
                   onChange={searchHandler} 
-                  className="w-[500px] h-[60px] rounded-md px-2.5 mb-14 border-[1px] border-solid border-silver transition-all" 
+                  className="w-[500px] h-[60px] rounded-md px-2.5 mb-14 border-[1px] border-solid border-silver transition-all focus:border-blue focus:outline-none" 
                   />
             </form>
             <div className="flex flex-wrap justify-between items-center mt-[100px] px-[200px] xl:py-4 xl:px-20 xl:mt-28  md:px-10 sm:justify-center sm:py-4 sm:px-2.5 mb-10">

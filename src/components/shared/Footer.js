@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 
 const Home=()=> {
     return ( 
-        <div className="bottom-0 flex flex-col items-center justify-center content-around bg-blue  ">
-            <div className="flex justify-around md:flex-col">
-                <div className="flex flex-col mr-[320px]">
+        <div className="bottom-0 flex flex-col items-center justify-center content-around bg-blue   ">
+            <div className="flex justify-around gap-x-[35rem] md:flex-col md:gap-y-3 ">
+                <div className="flex flex-col md:items-center">
                     <h3 className="text-xl font-bold p-1  text-white">Socials</h3>
                     <Link to="#" className="p-1 text-white">Facebook</Link>
                     <Link to="#" className="p-1 text-white">Twitter</Link>
                     <Link to="#" className="p-1 text-white">Instagram</Link>
                     <Link to="#" className="p-1 text-white">LinkedIn</Link>
                 </div>
-                <div className="flex flex-col ml-20 ">
+                <div className="flex flex-col md:items-center ">
                     <h3 className="text-xl font-bold p-1 text-white">Link</h3>
                     <Link to="/Home" className="p-1 text-white">Home</Link>
                     <Link to="/products" className="p-1 text-white">products</Link>

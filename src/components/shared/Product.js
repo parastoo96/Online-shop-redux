@@ -20,7 +20,7 @@ const Product = ({productData}) => {
    const dispatch=useDispatch()
 
     return (
-        <div className=' w-[250px]  border-[1px] border-solid border-silver overflow-hidden bg-white mx-[10px] mb-12 transition-all delay-200 ease text-center lg:w-[45%]  sm:w-72'>
+        <div className=' w-[250px]  border-[1px] border-solid border-silver overflow-hidden bg-white mx-[10px] mb-12 transition-all delay-200 ease text-center md:w-[40%] lg:w-[30%]  sm:w-72'>
          
             <img className='w-[230px] h-[200px] m-2.5 md:w-52 sm:w-[230px]' src={productData.image} alt="product"  />
             <h3 className='text-gray text-left mt-6 mx-5 mb-4 text-lg '>{shorten(productData.title)}</h3>
